@@ -23,3 +23,7 @@ $("input[type='text']").keypress(function(event) {
   }
   //enter is 13
 });
+
+$('.fa-plus').click(function() {
+  $("input[type='text']").fadeToggle();
+});
